@@ -1,0 +1,317 @@
+:root{
+    --primary:#00FFFF;
+    --background:black;
+    --white-text:white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Agency FB, Imprint MT Shadow, Comic Sans MS;
+}
+
+nav{
+    background: black;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+}
+
+header h2{
+	color: var(--white-text);
+	font-size: 2rem;
+	letter-spacing: 1rem;
+}
+
+nav ul{
+    display: flex;
+    height: 25px;
+}
+
+nav ul li{ 
+    background: linear-gradient(to right, #000000a8, #201e0131, #191970);
+    border-right: solid .1rem #EEAD0E;
+    border-radius: 15%; 
+}
+
+nav ul li a{
+    color: var(--white-text);
+    font-size: 1rem;
+    padding: .8rem 1rem;
+    text-transform: uppercase; 
+}
+
+nav ul li a:hover{ 
+    color: #EEAD0E;
+    transition: .4s;
+    border-radius: 15%;
+}
+
+.lateral{
+    padding: 25px 5px;
+    border-radius: 5%;
+    position: absolute;
+    
+}
+
+.lateral ul li{
+    background: linear-gradient(#000000a8, #201e0131, #191970);
+    height: 7vh;
+    padding: 5px 5px;
+    border-bottom: solid .1rem #EEAD0E;
+    border-radius: 20%; 
+    align-items: center;
+}
+
+.lateral li a{
+    color: var(--white-text);
+    font-size: 20px;
+    align-items: auto;
+    padding: .3rem 1rem;
+    
+}
+
+.lateral li a:hover{
+    color: #EEAD0E;
+    font-size: 20px;
+    align-content: center;
+}
+
+/* estilo del titulo */
+.contenedor{ 
+    background-image: url(../img/gato.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 200px;
+    
+}
+
+.contenedor h1{
+    font-family: Agency FB;
+    font-weight: 200;
+   	font-size: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+    color: var(--white-text);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 10); 
+}
+
+.contenedor h2{
+    font-family: Imprint MT Shadow;
+    font-size: 35px;
+    font-weight: 250; 
+	margin-bottom: 50px;
+	text-align: center;
+    color: var(--primary);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 10);
+}
+
+.contenedor p{
+    font: initial;
+    color:var(--white-text);
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 5);
+}
+.efect{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent transparent;
+}
+
+.titulo h2{
+    font-weight: 300;
+    padding: 20px;
+    color: var(--white-text);
+    font-size: 50px;
+    text-align: center;
+}
+
+/* estilo de video, eventos y texto */
+.anuncio{
+	width: 50%;
+	height: 40%;
+}
+
+.video{
+	padding: 52px 0;
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+.conten-info h4{
+	color: var(--white-text);
+	font-size: 22px;
+	text-align: center;
+    font-weight: 300;
+}
+
+.conten-info h4 span{
+	width: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, #191970, #201e0131, #000000a8);
+    border-bottom: solid .1rem #EEAD0E;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    margin-right: 10px;
+}
+
+.conten-info p{
+	padding: 30px;
+	font-size: 18px;
+	color: var(--white-text);
+    text-align: justify;
+}
+
+.techno{
+	padding: 50px 0;
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.conten-evento h4{
+    color: var(--white-text);
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+.conten-evento h4 span{
+	width: 25px;
+	margin-bottom: 20px;
+    background: linear-gradient(to top, #191970, #201e0131, #000000a8);
+    border-bottom: solid .1rem #EEAD0E;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 8);
+    margin-right: 10px;
+}
+
+.conten-evento p{
+	padding: 30px;
+	font-size: 18px;
+	color: var(--white-text);
+    text-align: justify;
+}
+
+.img-evento{
+	width: 50%;
+	height: 40%;
+}
+
+footer{
+    background-color: black;
+    color: var(--white-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+footer .pag{
+    
+    background: linear-gradient(to right, #000000a8, #201e0131, #191970);
+    border-radius: 20%;
+    border-right: solid .1rem #EEAD0E;
+    padding: .8rem 1rem;
+}
+
+footer .jp{
+    
+    background: linear-gradient(to right, #000000a8, #201e0131, #191970);
+    border-radius: 20%;
+    border-right: solid .1rem #EEAD0E;
+    padding: .8rem 1rem;
+}
+
+footer .tlf{
+    
+    background: linear-gradient(to right, #000000a8, #201e0131, #191970);
+    border-radius: 20%;
+    border-right: solid .1rem #EEAD0E;
+    padding: .8rem 1rem;
+}
+
+footer .tlf a{
+    color: var(--white-text);
+}
+
+footer .tlf a:hover{
+    color: #EEAD0E;
+    font-size: 20px;
+    align-content: center;
+}
+
+
+footer .correo{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #000000a8, #201e0131, #191970);
+    border-radius: 20%;
+    border-right: solid .1rem #EEAD0E;
+    padding: .8rem 1rem;
+}
+
+footer .efecmail{
+   
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+footer .efecmail >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+footer .gmail{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    transform: scale(0); 
+    transition: transform .0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .gmail >img{
+    width: 100%;
+    height: 100%;  
+}
+
+footer .efecmail:hover .gmail{
+    transform: scale(1);
+}
+
+
+
+
+
+
