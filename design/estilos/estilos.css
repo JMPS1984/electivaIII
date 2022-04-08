@@ -2,6 +2,7 @@
     --primary:#00FFFF;
     --background:black;
     --white-text:white;
+    --black-text:black;
 }
 
 *{
@@ -50,7 +51,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{ 
-    color: #EEAD0E;
+    color: #1027fabe;
     transition: .4s;
     border-radius: 15%;
 }
@@ -63,24 +64,25 @@ nav ul li a:hover{
 }
 
 .lateral ul li{
-    background: linear-gradient(#000000a8, #201e0131, #191970);
+    background: linear-gradient(#ffffff0e, #c8f2f32d, #07f2fa2d, #060663cc);
     height: 7vh;
     padding: 5px 5px;
-    border-bottom: solid .1rem #EEAD0E;
+    border-bottom: solid .2rem #EEAD0E;
     border-radius: 20%; 
     align-items: center;
 }
 
 .lateral li a{
-    color: var(--white-text);
+    color: var(--black-text);
     font-size: 20px;
     align-items: auto;
     padding: .3rem 1rem;
+    text-shadow: 5%;
     
 }
 
 .lateral li a:hover{
-    color: #EEAD0E;
+    color: #1027fabe;
     font-size: 20px;
     align-content: center;
 }
@@ -133,12 +135,13 @@ nav ul li a:hover{
 .titulo h2{
     font-weight: 300;
     padding: 20px;
-    color: var(--white-text);
+    color: var(--black-text);
     font-size: 50px;
     text-align: center;
 }
 
 /* estilo de video, eventos y texto */
+
 .anuncio{
 	width: 50%;
 	height: 40%;
@@ -153,7 +156,7 @@ nav ul li a:hover{
     overflow: hidden;
 }
 .conten-info h4{
-	color: var(--white-text);
+	color: var(--black-text);
 	font-size: 22px;
 	text-align: center;
     font-weight: 300;
@@ -162,8 +165,8 @@ nav ul li a:hover{
 .conten-info h4 span{
 	width: 20px;
     margin-bottom: 20px;
-    background: linear-gradient(to top, #191970, #201e0131, #000000a8);
-    border-bottom: solid .1rem #EEAD0E;
+    background: linear-gradient(#ffffff0e, #c8f2f32d, #07f2fa2d, #060663cc);
+    border-bottom: solid .2rem #EEAD0E;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -175,8 +178,9 @@ nav ul li a:hover{
 .conten-info p{
 	padding: 30px;
 	font-size: 18px;
-	color: var(--white-text);
+	color: var(--black-text);
     text-align: justify;
+    font-family: Arial Narrow Bold;
 }
 
 .techno{
@@ -189,7 +193,7 @@ nav ul li a:hover{
 }
 
 .conten-evento h4{
-    color: var(--white-text);
+    color: var(--black-text);
     font-size: 22px;
     font-weight: 300;
     text-align: center;
@@ -197,8 +201,8 @@ nav ul li a:hover{
 .conten-evento h4 span{
 	width: 25px;
 	margin-bottom: 20px;
-    background: linear-gradient(to top, #191970, #201e0131, #000000a8);
-    border-bottom: solid .1rem #EEAD0E;
+    background: linear-gradient(#ffffff0e, #c8f2f32d, #07f2fa2d, #060663cc);
+    border-bottom: solid .2rem #EEAD0E;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -210,8 +214,9 @@ nav ul li a:hover{
 .conten-evento p{
 	padding: 30px;
 	font-size: 18px;
-	color: var(--white-text);
+	color: var(--black-text);
     text-align: justify;
+    font-family: Arial Narrow Bold;
 }
 
 .img-evento{
@@ -309,6 +314,7 @@ footer .gmail >img{
 footer .efecmail:hover .gmail{
     transform: scale(1);
 }
+
 
 
 
