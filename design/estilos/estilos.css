@@ -51,7 +51,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{ 
-    color: #10faee;
+    color: var(--primary);
     transition: .4s;
     border-radius: 15%;
 }
