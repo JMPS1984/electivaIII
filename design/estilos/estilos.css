@@ -51,7 +51,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{ 
-    color: var(--primary);
+    color: #10faee;
     transition: .4s;
     border-radius: 15%;
 }
@@ -224,6 +224,38 @@ nav ul li a:hover{
 	height: 40%;
 }
 
+.cursos h4{
+    color: var(--black-text);
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    font-family: Berlin Sans FB;
+    font-style: oblique;
+}
+
+.cursos p{
+	padding: 10px;
+	font-size: 14px;
+	color: var(--black-text);
+    text-align: center;
+    font-family: Berlin Sans FB;
+    font-style: initial;
+}
+
+.cursos p span{
+	width: 25px;
+	margin-bottom: 20px;
+    background: linear-gradient(#ffffff00,  #11aaaf, #c8f2f3b2, #060663e0);
+    border-bottom: solid .2rem #EEAD0E;
+    border-radius: 75%;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 8);
+    margin-right: 10px;
+    font-family: Arial Narrow Bold;
+}
+
 footer{
     background-color: black;
     color: var(--white-text);
@@ -314,5 +346,3 @@ footer .gmail >img{
 footer .efecmail:hover .gmail{
     transform: scale(1);
 }
-
-
